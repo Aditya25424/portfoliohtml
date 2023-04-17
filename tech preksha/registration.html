@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="registration.css">
+  </head>
+  <body>
+    <header>
+      <h1>Registration Form</h1>
+    </header>
+    <form>
+      <label for="name">Name of Organization:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your prganization's name" required>
+
+      <label for="adress">Adrress of Organization:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your prganization's adress" required>
+
+      <label for="city">city:</label>
+      <input type="text" id="name" name="name" placeholder="city" required>
+
+      <label for="pincode">pincode:</label>
+      <input type="text" id="name" name="name" placeholder="Enter valid pincode" required>
+      
+      <label for="email">Official email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your official email" required>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required>
+      
+      <label for="confirm-password">Confirm Password:</label>
+      <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+      
+      <label for="purpose">Aiming For The Welfare Of:</label>
+      <select id="purpose" name="purpose">
+        <option value="children">Poor Children</option>
+        <option value="people">Poor People</option>
+        <option value="elders">Eldery people</option>
+        <option value="poor people">Poor People In General</option>
+      </select>
+      
+      <label for="dob">Date Of Establishment:</label>
+      <input type="date" id="dob" name="dob" required>
+
+      <label for="document">Upload legal document:</label>
+      <input type="file" id="document" name="document" accept=".pdf,.doc,.docx,.txt" required>
+      <br>
+      <br>
+      
+      <input type="submit" value="Register">
+    </form>
+  </body>
+</html>

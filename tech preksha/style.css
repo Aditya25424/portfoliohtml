@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+}
+
+body {  
+    
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header h3 {
+    text-align: right;
+    font-size: 25px;
+    color: gray;
+    font-weight: 900px;
+    font-family: Alkatra;
+    margin: 30px;
+    
+}
+li{
+    text-align: left;
+}
+header {
+    padding: 7px;
+  
+    background-color: #bacbfe;
+}
+
+nav {
+    background-color: green;
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+main {
+    background-color: white;
+    text-align: left;
+}
+
+h2 {
+    padding: 20px;
+    color: #987161;
+    background-color: #bacbfe;
+}
+
+    section:nth-child(even) {
+        background-color: rgb(241, 241, 241);
+    }
+a:hover{
+    background-color: beige;
+    color: blue ;
+}
+
+
+video {
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+    iframe {
+        width: 65vb;
+        height: 40vh;
+        flex-direction:row-reverse;
+        display: block;
+    margin: auto;
+    border: 2px solid bisque;
+    }
+
+img {
+    padding: 0px;
+    width: 65vb;
+    height: 35vh;
+}
+
+section h5 {
+    margin: 40px;
+}
+
+footer {
+    background-color: lightseagreen;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+p{
+    text-align: left;
+   transform-style: capitalize;
+    text-align: center;
+    text-size-adjust: 570px;
+    font-family: Calibri, Helvetica, sans-serif;
+    background-color: transparent;
+}
+.donation,ul{
+    text-align: center;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    
+}
+#logo{ 
+	position:fixed; 
+	top:0; 
+	left:0; 
+    margin: 10px;
+} 
+li+p{
+    text-align: center;
+}
+
+
+.banner h1 
+{
+    text-align: center;
+    top: 100px;
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+
+}
+.banner img
+{
+   top: 100%;
+    width: 200px;
+   height: 95px;
+   text-size-adjust: 900px;
+   font-family: Alkatra;
+}
+
+.logo_1{
+    text-align: center;
+}
+h5{
+    font-size: 20px;
+}
+ul{
+    background-color: lavenderblush ;
+    padding: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+.feedback{
+    background-color: #f2f2f2;
+    padding: 5px 10px 15px 20px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: auto;  
+    height: 100%;
+    width: 100%;
+
+}
+input[type="text"]
+input[type="number"]
+input[type="date"]
+input[type="radio"]
+input[type="email"]
+select,textarea{
+    width: auto;
+    padding: 12px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+.contact{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    padding: 100px;
+    border: 1px ;
+    background-image: url();
+
+}
+
+input[type="submit"]
+    {
+        background-color: rgba(13, 244, 190, 0.964);
+        border: none;
+        border-radius: 10px;
+        padding: 20px;
+       margin: auto;
+        cursor: pointer;
+        text-transform: capitalize;
+
+        
+    }
+    input[type="submit"]:hover
+    {
+        background-color: rgb(26, 226, 43);
+    }
+        
+    .home_nav{
+     display: flexbox;
+        justify-content: space-evenly;
+    }
